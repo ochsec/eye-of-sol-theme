@@ -1,0 +1,29 @@
+{
+  "name": "eye-of-sol-theme",
+  "author": {
+    "name": "ochsec"
+  },
+  "displayName": "Eye Of Sol",
+  "description": "A clean, minimalist theme based on the Sun as viewed from space",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ochsec/eye-of-sol-theme.git",
+    "directory": "/"
+  },
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "eye-of-sol",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eye-of-sol-color-theme.json"
+      }
+    ]
+  }
+}
